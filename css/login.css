@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #354366;
+}
+
+.container {
+    width: 100%;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 130px;
+}
+
+.card {
+    width: 100%;
+    align-items: center;
+    /* padding: 0 10px; */
+    display: flex;
+}
+
+.login {
+    position: relative;
+    padding: 35px 30px 0;
+    width: 485px;
+    height: 575px;
+    background-color: rgba(255, 255, 255, .9);
+    margin: 60px auto;
+}
+
+.login-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #4a4a4a;
+    text-align: center;
+}
+
+.account,
+.password {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+form label {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+}
+
+form input {
+    font-size: 28px;
+    padding: 0 20px;
+    height: 70px;
+    border: 0;
+    background-color: #fff;
+    color: #4a4a4a;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    position: absolute;
+    height: 100px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    outline: none;
+    border: 0;
+    background-color: #00c8d3;
+}
+
+.btn {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.notes {}

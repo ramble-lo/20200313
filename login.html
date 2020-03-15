@@ -4,33 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Starbusker</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,500,700&display=swap" rel="stylesheet">
+    <title>藝人登入</title>
+    <link rel="stylesheet" href="css/login.css">
 </head>
 
 <body>
-
     <div class="container">
         <div class="title">
-            <h2>STARBSUKER</h2>
+            <h2>STARBUSKER</h2>
         </div>
         <div class="card">
-            <div class="choose">
-                <a href="#" class="tourist">
-                    <div class="pic-tourist"><img src="https://picsum.photos/300/300?random=20"></div>
-                    <div class="txt">
-                        <h5>我是觀眾</h5>
-                    </div>
-                </a>
-                <a href="#" class="busker">
-                    <div class="pic-busker"><img src="https://picsum.photos/300/300?random=20"></div>
-                    <div class="txt">
-                        <h5>我是藝人</h5>
-                    </div>
-                </a>
-            </div>
+            <form class="login">
+                <div class="login-title">藝人登入</div>
+                <div class="account"><label for="">帳號</label><input type="text"></div>
+                <div class="password"><label for="">密碼</label><input type="password"></div>
+                <button class="btn">登入</button>
+            </form>
         </div>
+        <div class="notes"></div>
+
     </div>
 </body>
 
