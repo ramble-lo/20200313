@@ -86,4 +86,12 @@ button {
     font-weight: 400;
 }
 
-.notes {}
+.notes a {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    justify-content: center;
+    letter-spacing: 1px;
+}
